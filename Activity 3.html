@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <form onsubmit = "validate(event)">
+            <fieldset>
+                <label>Email:</label>
+                <input type="email" id="email" name="email"> <br><br>
+                <label>Password:</label>
+                <input type="password" id="password" name="password" minlength="8"></inpur> <br><br>
+                <label>Age:</label>
+                <input type="age" id="age" name="age" min="6" max="18"><br><br>
+                <button type="submit">Login</button>
+            </fieldset>
+        </form>
+        <div id="message"></div>
+        <script src="script2.js"></script>
+    </body>
+</html>
